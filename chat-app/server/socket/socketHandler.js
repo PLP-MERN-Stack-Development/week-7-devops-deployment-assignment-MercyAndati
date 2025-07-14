@@ -419,7 +419,6 @@ module.exports = (io) => {
 
           // Remove from connected users
           connectedUsers.delete(socket.user.id.toString());
-
           // Update user offline status
           await socket.user.setOffline();
 
