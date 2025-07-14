@@ -21,6 +21,8 @@ connectDB();
 
 // Initialize Express app
 const app = express();
+app.set('trust proxy', 1); // ✅ Trust proxy when behind Render
+
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
