@@ -36,32 +36,6 @@ This project is a full-stack real-time chat application built with the MERN stac
 
 ---
 
-## 🔄 CI/CD with GitHub Actions
-
-CI/CD is set up using `.github/workflows/mern-ci-cd.yml`.
-
-### Trigger:
-- On push or pull request to `main` branch
-
-### Jobs:
-- `backend-ci`: Lint, test, build backend
-- `frontend-ci`: Lint, test, build frontend
-- `deploy-backend`: Deploy to Render
-- `deploy-frontend`: Deploy to Vercel
-- `health-check`: Check app health after deploy
-
----
-
-## 📸 CI/CD Screenshot Evidence
-
-> **Steps:**
-> 1. Go to GitHub → **Actions tab**
-> 2. Click latest successful workflow
-> 3. Screenshot all steps (backend-ci, frontend-ci, deploy, etc.)
-> 4. Include in your submission or docs
-
----
-
 ## 📁 Environment Configuration
 
 ### `server/.env.example`
@@ -85,12 +59,6 @@ SOCKET_URL=https://week-7-devops-deployment-assignment-s8t2.onrender.com
 
 ### ✅ Health Route
 - `/health` endpoint on backend
-
-### ✅ Uptime Monitoring
-- Registered both frontend and backend on [UptimeRobot](https://uptimerobot.com)
-- Ping interval: 5 minutes
-
----
 
 ## ✅ Summary
 

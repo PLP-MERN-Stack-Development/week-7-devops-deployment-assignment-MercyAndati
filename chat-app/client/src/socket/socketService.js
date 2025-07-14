@@ -8,7 +8,7 @@ class SocketService {
   }
 
   connect(token) {
-    const SOCKET_URL = import.meta.env.SOCKET_URL || 'http://localhost:5000';
+    const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;
 
     this.socket = io(SOCKET_URL, {
       auth: {
