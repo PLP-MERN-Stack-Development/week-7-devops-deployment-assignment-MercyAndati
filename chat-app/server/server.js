@@ -44,7 +44,7 @@ app.use('/api/', limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+  origin: ['https://chat-5zijj09dh-andatimercy8-1248s-projects.vercel.app/'],
   credentials: true
 }));
 
