@@ -46,7 +46,7 @@ app.use('/api/', limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: ['https://chat-5zijj09dh-andatimercy8-1248s-projects.vercel.app'],
+  origin: ['https://chat-app-phi-two-43.vercel.app'],
   credentials: true
 }));
 
